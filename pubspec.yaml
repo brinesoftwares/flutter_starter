@@ -1,0 +1,45 @@
+name: flutter_starter
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  carousel_slider:
+  firebase_messaging:
+  get:
+  dio:
+  intl:
+  smooth_page_indicator:
+  shimmer:
+  flutter_spinkit:
+  get_storage:
+  animate_do:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/app_icon/
+
+  fonts:
+    - family: Josefin
+      fonts:
+        - asset: assets/fonts/Medium.ttf
+        - asset: assets/fonts/Light.ttf
+          weight: 200
+        - asset: assets/fonts/Bold.ttf
+          weight: 700
+ 
