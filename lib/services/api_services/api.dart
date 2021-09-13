@@ -7,7 +7,7 @@ class ApiServices {
 
   Future<Map> get(String _endPoint) async {
     try {
-      response = await dio.post(url + _endPoint);
+      response = await dio.get(url + _endPoint);
       return response.data;
     } catch (e) {
       return {"status":false,"message":"Server/URL error","data":[]};
